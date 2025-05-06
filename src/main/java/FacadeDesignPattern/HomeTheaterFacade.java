@@ -21,4 +21,19 @@ public class HomeTheaterFacade {
         securitySystems.lockDoors();
         airConditioner.setTemperature(22);
     }
+    public void startPartyMode() {
+        System.out.println("Starting Party Mode...");
+        light.dim();                       // Keep lights dim
+        airConditioner.setTemperature(20);             // Cooler environment
+        musicSystem.playAmbientSound();          // Could change to louder music
+        // Doors stay unlocked for guests
+    }
+
+    public void startMorningRoutine() {
+        System.out.println("Starting Morning Routine...");
+        light.dim();                       // Or light.brighten()
+        airConditioner.setTemperature(24);
+        // No music
+        securitySystems.lockDoors();              // Maybe unlock instead
+    }
 }
