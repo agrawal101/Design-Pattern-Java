@@ -1,4 +1,4 @@
-package Creational.AbstractFactoryDesignPattern;
+package creational.abstractFactoryDesignPattern;
 
 public interface UIComponentFactory {
     Button createButton();

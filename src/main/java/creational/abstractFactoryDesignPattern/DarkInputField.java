@@ -1,4 +1,4 @@
-package Creational.AbstractFactoryDesignPattern;
+package creational.abstractFactoryDesignPattern;
 
 public class DarkInputField implements InputField{
     @Override
