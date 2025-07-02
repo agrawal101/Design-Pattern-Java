@@ -1,4 +1,4 @@
-package structural.ProxyDesignPattern;
+package structural.proxyDesignPatternExample1;
 
 public class RealImage implements Image{
 private String fileName;

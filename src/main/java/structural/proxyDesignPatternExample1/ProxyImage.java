@@ -1,4 +1,4 @@
-package structural.ProxyDesignPattern;
+package structural.proxyDesignPatternExample1;
 
 public class ProxyImage implements Image{
     private String fileName;

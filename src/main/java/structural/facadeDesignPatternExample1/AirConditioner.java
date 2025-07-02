@@ -1,4 +1,4 @@
-package structural.FacadeDesignPattern;
+package structural.facadeDesignPatternExample1;
 
 public class AirConditioner {
     public void setTemperature(int temp)

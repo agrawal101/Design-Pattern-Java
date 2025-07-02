@@ -1,4 +1,4 @@
-package structural.FacadeDesignPattern;
+package structural.facadeDesignPatternExample1;
 
 public class MusicSystem {
     public void playAmbientSound()
