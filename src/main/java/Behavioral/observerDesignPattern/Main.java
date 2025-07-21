@@ -1,4 +1,4 @@
-package Behavioral.ObserverDesignPattern;
+package Behavioral.observerDesignPattern;
 
 public class Main {
 
