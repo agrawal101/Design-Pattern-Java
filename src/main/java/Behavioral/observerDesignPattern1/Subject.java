@@ -1,4 +1,4 @@
-package Behavioral.observerDesignPattern;
+package Behavioral.observerDesignPattern1;
 
 public interface Subject {
     void registerObserver(Observer o);

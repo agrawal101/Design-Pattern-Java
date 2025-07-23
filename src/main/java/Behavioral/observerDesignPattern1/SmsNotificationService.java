@@ -1,4 +1,4 @@
-package Behavioral.observerDesignPattern;
+package Behavioral.observerDesignPattern1;
 
 public class SmsNotificationService implements Observer{
     @Override
