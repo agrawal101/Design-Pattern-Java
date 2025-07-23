@@ -1,4 +1,4 @@
-package Behavioral.StrategyDesignPattern;
+package Behavioral.strategyDesignPattern1;
 
 public class CreditCardPayment implements PaymentStrategy{
     @Override

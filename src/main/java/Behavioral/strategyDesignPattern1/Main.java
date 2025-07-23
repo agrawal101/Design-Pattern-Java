@@ -1,4 +1,4 @@
-package Behavioral.StrategyDesignPattern;
+package Behavioral.strategyDesignPattern1;
 
 public class Main {
     public static void main(String[] args) {

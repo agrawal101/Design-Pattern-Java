@@ -1,4 +1,4 @@
-package Behavioral.StrategyDesignPattern;
+package Behavioral.strategyDesignPattern1;
 
 public class PayPalPayment implements PaymentStrategy{
     @Override
