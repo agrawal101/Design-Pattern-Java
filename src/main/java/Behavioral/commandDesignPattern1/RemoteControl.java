@@ -1,4 +1,4 @@
-package Behavioral.CommandDesignPattern;
+package Behavioral.commandDesignPattern1;
 
 public class RemoteControl {
     private Command command;

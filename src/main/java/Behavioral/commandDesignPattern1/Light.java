@@ -1,4 +1,4 @@
-package Behavioral.CommandDesignPattern;
+package Behavioral.commandDesignPattern1;
 
 public class Light {
     public void turnOn()

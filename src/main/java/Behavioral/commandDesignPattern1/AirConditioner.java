@@ -1,4 +1,4 @@
-package Behavioral.CommandDesignPattern;
+package Behavioral.commandDesignPattern1;
 
 public class AirConditioner {
     public void setTemperature(int temp)
