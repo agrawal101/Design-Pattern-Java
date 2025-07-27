@@ -1,6 +1,6 @@
-package Behavioral.StateDesignPattern;
+package Behavioral.stateDesignPattern1;
 
-public class PausedState implements PlayerState{
+public class StoppingState implements PlayerState{
     @Override
     public void play(Player player)
     {
@@ -10,12 +10,11 @@ public class PausedState implements PlayerState{
     @Override
     public void pause(Player player)
     {
-        System.out.println("ALREADY PAUSED");
+        System.out.println("Can't pause, player is stopped");
     }
     @Override
     public void stop(Player player)
     {
-        System.out.println("Stopping .....");
-        player.setState(new StoppingState());
+        System.out.println("Already stopped");
     }
 }

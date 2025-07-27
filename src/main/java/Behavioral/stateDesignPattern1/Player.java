@@ -1,4 +1,4 @@
-package Behavioral.StateDesignPattern;
+package Behavioral.stateDesignPattern1;
 
 public class Player {
     private PlayerState playerState;
